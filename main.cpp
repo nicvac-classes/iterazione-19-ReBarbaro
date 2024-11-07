@@ -2,10 +2,23 @@
 using namespace std;
 
 int main() {
-    string nome;
-    cout << "Inserisci il tuo nome: ";
-    cin >> nome;
-    cout << "Ciao " <<nome<< "!" << endl;
+    int n,divisori,numeroDivisori,resto;
+    cout<<"scrivi un numero intero"<<endl;
+    cin>>n;
+    numeroDivisori=0;
+    if(divisori=1 ; divisori<=N;divisori++){
+        resto=n%divisori;
+        if(resto=0){
+            cout<<divisori<<"è divisore"<<endl;
+            numeroDivisori=numeroDivisori+1;
+            }
+        }
+        cout<<"i divisori sono"<<numeroDivisori<<endl;
+        if(numeroDivisori==2){
+            cout<<n<<"è primo"<<endl;
+             }else{
+                cout<<n<<"non è primo"<<endl;
+    
 }
 
-//LEGGERE LE ISTRUZIONI NEL FILE README.md
+
